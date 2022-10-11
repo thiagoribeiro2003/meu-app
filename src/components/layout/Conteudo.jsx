@@ -1,12 +1,14 @@
 // Comentário JS ctrl ;
 /* Comentário JS shift alt a */
 import Artigo from "../Artigo";
+import "./Conteudo.css";
+
 const Conteudo = () => {
   return (
     <main>
       <section>
         {/*Aqui é um comentário dentro do jsx*/}
-        <h2>Conteúdo do site.....</h2>
+        <h2 className="subtitulo">Conteúdo do site.....</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
           voluptatibus, voluptatum illum sequi blanditiis omnis veniam, esse

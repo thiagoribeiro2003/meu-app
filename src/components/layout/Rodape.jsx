@@ -1,7 +1,7 @@
 const Rodape = () => {
   return (
     <footer>
-      <h2>Rodapé!</h2>
+      <h2 className="subtitulo">Rodapé!</h2>
     </footer>
   );
 };
