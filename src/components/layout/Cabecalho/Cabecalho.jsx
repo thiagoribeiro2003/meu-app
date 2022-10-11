@@ -1,4 +1,4 @@
-import Menu from "../Menu";
+import Menu from "../Menu/Menu";
 
 /* Objeto de estilos CSS */
 const estilos = {

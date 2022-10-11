@@ -1,0 +1,19 @@
+main {
+  width: 90vw;
+  margin: auto;
+}
+
+.subtitulo {
+  text-align: center;
+  color: rgb(214, 8, 214);
+}
+
+.destaque {
+  background-color: yellow;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+
+.sombraTexto {
+  text-shadow: black 1px 1px 3px;
+}
