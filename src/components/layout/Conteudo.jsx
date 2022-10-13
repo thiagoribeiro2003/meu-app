@@ -2,6 +2,7 @@ import Artigo from "../Artigo";
 const Conteudo = () => {
   const artigos = [
     {
+      id: 1,
       titulo: "Artigo 1",
       subtitulo: "Este é o subtítulo do artigo 1....",
       texto: "Este é o conteúdo bla bla bla do artigo 1",
@@ -9,6 +10,7 @@ const Conteudo = () => {
     },
 
     {
+      id: 2,
       titulo: "Artigo 2",
       subtitulo: "Este é o subtítulo do artigo 2....",
       texto: "Este é o conteúdo bla bla bla do artigo 2",
@@ -16,6 +18,7 @@ const Conteudo = () => {
     },
 
     {
+      id: 3,
       titulo: "Artigo 3",
       subtitulo: "Este é o subtítulo do artigo 3....",
       texto: "Este é o conteúdo bla bla bla do artigo 3",
@@ -34,17 +37,16 @@ const Conteudo = () => {
           Modi, nulla nemo.
         </p>
 
-        {artigos.map((artigo) => {
-          return (
-            <Artigo
-              titulo={artigo.titulo}
-              subtitulo={artigo.subtitulo}
-              curso={artigo.curso}
-            >
-              {artigo.texto}
-            </Artigo>
-          );
-        })}
+        {artigos.map((artigo) => (
+          <Artigo
+            key={artigo.id}
+            titulo={artigo.titulo}
+            subtitulo={artigo.subtitulo}
+            curso={artigo.curso}
+          >
+            {artigo.texto}
+          </Artigo>
+        ))}
       </section>
     </main>
   );
